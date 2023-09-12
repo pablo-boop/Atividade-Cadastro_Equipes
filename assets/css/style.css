@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    margin: 1rem;
+    padding: 3rem;
+    gap: 0.5rem;
+    border-radius: 0.3rem;
+    -webkit-box-shadow: -12px 10px 24px 2px rgba(0,0,0,0.26);
+    -moz-box-shadow: -12px 10px 24px 2px rgba(0,0,0,0.26);
+    box-shadow: -12px 10px 24px 2px rgba(0,0,0,0.26);
+}
+
+label {
+    margin: 0.2rem;
+}
+
+input {
+    width: 45vw;
+    height: 5vh;
+    border: none;
+    border-radius: 0.2rem;
+    background-color: #e6e6e6;
+    padding-left: 0.5rem;
+}
+
+button {
+    background-color: #048cce;
+    border-radius: 0.3rem;
+    width: 50%;
+    height: 5vh;
+    border: none;
+    color: #fff;
+}
+
+#global-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    padding: 0.5rem;
+    border: 2px solid #e6e6e6;
+    border-radius: 0.2rem;
+    width: 50%;
+    height: auto;
+}
+
+#list-teams {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    padding: 0.5rem;
+    border: 2px solid #e6e6e6;
+    border-radius: 0.2rem;
+    width: 80%;
+    height: 30vh;
+    overflow-y: auto;
+    gap: 1rem;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+    border: 0.5px solid #151515;
+    border-radius: 0.2rem;
+}
+
+.cards-unique {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    border: 0.5px solid #151515;
+    border-radius: 0.2rem;
+    text-align: start;
+}
+
+#actions-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.actions {
+    margin: 0.3rem;
+    background-color: #e6e6e6;
+    border-radius: 0.3rem;
+    width: 25vw;
+    height: 5vh;
+}
+
+.hidden {
+    display: none !important;
+}

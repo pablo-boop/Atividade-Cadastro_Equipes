@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>C.R.U.D.</title>
+</head>
+<body>
+    <main>
+        <h2>Cadastro de equipes</h2>
+        <div id="container">
+            <label for="team">
+                <p>Nome da Equipe</p>
+                <input type="text" name="team" id="team">
+            </label>
+            <label for="quantity">
+                <p>Jogadores Titulares</p>
+                <input type="number" name="quantity" id="quantity">
+            </label>
+            <button id="button-register" onclick="createTeam()">Cadastrar</button>
+            <button id="button-edit" class="hidden actions" onclick="editTeam()">
+                <i class="fa-solid fa-pencil"></i>
+            </button>
+        </div>
+
+        <div id="global-list-container">
+            <div id="list-teams"></div>
+            <div id="listUniqueTeam"></div>
+        </div>
+    </main>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
